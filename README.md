@@ -37,12 +37,12 @@ Branched from [_mist-firmware/master_](https://github.com/mist-devel/mist-firmwa
   * does this work with resident programs?
   * does the resident ram disk RAD: still work?
 
-* Improve stability of core startup when a new configuration is loaded:
+* Improve stability of core startup when a new configuration is loaded
 
   * After Kickstart ROM upload clear CPU Vector Table before resetting the CPU
   * Clear Kickstart Mirror at $E0xxxx when Kickstart ROM size is 256KB
 
-* minimig: Fix IDE on/off, ask to reboot when changed
+* Fix IDE on/off, ask to reboot when changed
 
   Ask to reboot when IDE on/off changes, not only when hard disk master/slave configuration changes.
 
@@ -50,7 +50,7 @@ Branched from [_mist-firmware/master_](https://github.com/mist-devel/mist-firmwa
 
 Branched from [_minimig-mist/dev_](https://github.com/rkrajnc/minimig-mist/tree/dev), 34ccb73
 
-* Disable joystick1/mouse when OSD is active.
+* Disable joystick1/mouse when OSD is active
 
   This is a follow-up commit for [gyurco's](https://github.com/gyurco/minimig-mist/tree/dev) CD 32 pad changes
 * Code cleanup with changes from Minimig-AGA_MiSTer
