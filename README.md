@@ -50,12 +50,20 @@ Branched from [_mist-firmware/master_](https://github.com/mist-devel/mist-firmwa
 
 Branched from [_minimig-mist/dev_](https://github.com/rkrajnc/minimig-mist/tree/dev), 34ccb73
 
-* Disable joystick1/mouse when OSD is active
+* minimig_mist_20190922.rbf
 
-  This is a follow-up commit for [gyurco's](https://github.com/gyurco/minimig-mist/tree/dev) CD 32 pad changes
-* Code cleanup with changes from Minimig-AGA_MiSTer
+  * TG68K: implementation of RTD instruction
 
-  Cleanup with cherry-picks/backports from [Minimig-AGA_MiSTer](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer), mainly memory map changes/fixes
-  * Kickstart ROM memory areas are now write-protected(!)
-  * new memory layout enables up to 1.5MB SLOW MEM instead if just 512KB.
-  Now max. memory is 2MB CHIP + 1.5MB SLOW + 24MB FAST = 27.5MB!
+    Fixes crash of mmu.library from MMULib package (http://aminet.net/package/util/libs/MMULib)
+
+* minimig_mist_20190727.rbf
+
+  * Disable joystick1/mouse when OSD is active
+
+    This is a follow-up commit for [gyurco's](https://github.com/gyurco/minimig-mist/tree/dev) CD 32 pad changes
+  * Code cleanup with changes from Minimig-AGA_MiSTer
+
+    Cleanup with cherry-picks/backports from [Minimig-AGA_MiSTer](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer), mainly memory map changes/fixes
+    * Kickstart ROM memory areas are now write-protected(!)
+    * new memory layout enables up to 1.5MB SLOW MEM instead if just 512KB.
+    Now max. memory is 2MB CHIP + 1.5MB SLOW + 24MB FAST = 27.5MB!
