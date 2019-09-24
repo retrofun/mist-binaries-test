@@ -50,6 +50,10 @@ Branched from [_mist-firmware/master_](https://github.com/mist-devel/mist-firmwa
 
 Branched from [_minimig-mist/dev_](https://github.com/rkrajnc/minimig-mist/tree/dev), 34ccb73
 
+* minimig_mist_20190924.rbf
+
+  same as minimig_mist_20190922.rbf but synthesized with _Fitter effort: Standard Fit_
+
 * minimig_mist_20190922.rbf
 
   * TG68K: implementation of RTD instruction
