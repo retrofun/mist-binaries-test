@@ -7,6 +7,8 @@ Binaries of the repositories/branches
 
 ### mist-firmware
 
+https://github.com/retrofun/mist-firmware/tree/fixes-for-minimig-core
+
 Branched from [_mist-firmware/master_](https://github.com/mist-devel/mist-firmware), a257988
 
 * Fix fatal error 4 when choosing new FPGA core
@@ -48,7 +50,13 @@ Branched from [_mist-firmware/master_](https://github.com/mist-devel/mist-firmwa
 
 ### minimig-mist
 
+https://github.com/retrofun/minimig-mist/tree/fixes-for-minimig-core
+
 Branched from [_minimig-mist/dev_](https://github.com/rkrajnc/minimig-mist/tree/dev), 34ccb73
+
+* minimig_mist_20190926.rbf
+
+  * TG68K: fix RTR instruction
 
 * minimig_mist_20190924.rbf
 
