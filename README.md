@@ -54,6 +54,11 @@ https://github.com/retrofun/minimig-mist/tree/fixes-for-minimig-core
 
 Branched from [_minimig-mist/dev_](https://github.com/rkrajnc/minimig-mist/tree/dev), 34ccb73
 
+* minimig_mist_20190928.rbf
+
+  * TG68K: fix CMPM.B instruction
+  * TG68K: fix ADDX.B, SUBX.B instructions
+
 * minimig_mist_20190926.rbf
 
   * TG68K: fix RTR instruction
